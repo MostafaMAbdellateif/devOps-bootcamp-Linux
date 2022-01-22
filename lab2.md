@@ -87,7 +87,7 @@
     2- ~/.bashrc (local)
 
 9. Edit in your profile to display date at login and change your prompt permanently.
-- nano .bashrc
+- nano ~/.bashrc
 - write (date) at the end of the file
 - write (export 'PS1=mostafaTest$') at the end of the file to overwrite the default linux prompt
 - press Ctrl+O to save

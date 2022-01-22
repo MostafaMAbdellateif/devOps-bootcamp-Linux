@@ -18,22 +18,28 @@
 2. Open mycv file using vi command then: Without using arrows state how to:
 
 	a. Move the cursor down one line at time.
+	
     		- pressing J on keyboard
     		
 	b. Move the cursor up one line at time.
+	
     		- pressing K on keyboard
     		
 	c. Search for word age
+	
     		- write /age then press enter
 	
 	d. Step to line 5 (assuming that you are in line 1 and file is more than 5 lines).
-    		- wrtie :5 then press enter
+    	
+		- wrtie :5 then press enter
 	
 	e. Delete the line you are on and line 5.
+	
     		- write :d then press enter
     		- move using cursor to line 5 and write :d then press number
 	
 	f. How to step to the end of line and change to writing mode in one-step.
+	
     		- pressing A on keyboard (shift + a)
 
 3. List the available shells in your system.
@@ -63,14 +69,19 @@
 
 8. State the initialization files of: sh, ksh, bash.
 - sh:
+    
     1- /etc/profile (global)
+    
     2- ~/.profile (current user "local")
 - ksh:
     1- /etc/profile (global)
+    
     2- ~/.profile (local)
+    
     3- ~/.kshrc (local "if exist")
 - bash:
     1- /etc/profile (global)
+    
     2- ~/.bashrc (local)
 
 9. Edit in your profile to display date at login and change your prompt permanently.

@@ -1,11 +1,18 @@
 1. Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,...
 - command -> vim mycv
+
 name: Mostafa Abdellatif 
+
 age: 24
+
 school: Al Bayan
+
 college: Computer Science
+
 experience: Software Engineer
+
 ~                              
+
 :wq!
 
 2. Open mycv file using vi command then: Without using arrows state how to:

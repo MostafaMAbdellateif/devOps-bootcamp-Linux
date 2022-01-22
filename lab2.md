@@ -92,4 +92,4 @@
 - press Ctrl+x to exit
 
 10. Create a Bash shell alias named ls for the “ls –l” command.
-- alias lsalias='ls -l'
+- alias ls='ls -l'

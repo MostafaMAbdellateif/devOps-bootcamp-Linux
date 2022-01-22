@@ -1,34 +1,40 @@
 1. Using vi write your CV in the file mycv. Your CV should include your name, age, school, college, experience,...
 - command -> vim mycv
 
-name: Mostafa Abdellatif 
+	name: Mostafa Abdellatif 
 
-age: 24
+	age: 24
 
-school: Al Bayan
+	school: Al Bayan
 
-college: Computer Science
+	college: Computer Science
 
-experience: Software Engineer
+	experience: Software Engineer
 
-~                              
+	~                              
 
-:wq!
+	:wq!
 
 2. Open mycv file using vi command then: Without using arrows state how to:
+
 	a. Move the cursor down one line at time.
-    - pressing J on keyboard
+    		- pressing J on keyboard
+    		
 	b. Move the cursor up one line at time.
-    - pressing K on keyboard
+    		- pressing K on keyboard
+    		
 	c. Search for word age
-    - write /age then press enter
+    		- write /age then press enter
+	
 	d. Step to line 5 (assuming that you are in line 1 and file is more than 5 lines).
-    - wrtie :5 then press enter
+    		- wrtie :5 then press enter
+	
 	e. Delete the line you are on and line 5.
-    - write :d then press enter
-    - move using cursor to line 5 and write :d then press number
+    		- write :d then press enter
+    		- move using cursor to line 5 and write :d then press number
+	
 	f. How to step to the end of line and change to writing mode in one-step.
-    - pressing A on keyboard (shift + a)
+    		- pressing A on keyboard (shift + a)
 
 3. List the available shells in your system.
 - command -> cat /etc/shells

@@ -74,12 +74,14 @@
     
     2- ~/.profile (current user "local")
 - ksh:
+
     1- /etc/profile (global)
     
     2- ~/.profile (local)
     
     3- ~/.kshrc (local "if exist")
 - bash:
+
     1- /etc/profile (global)
     
     2- ~/.bashrc (local)
